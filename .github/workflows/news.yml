@@ -1,0 +1,40 @@
+name: Draft news for editorial review
+on:
+  schedule:
+    - cron: '17 */6 * * *' # UTC; edit to change frequency
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: news-drafts
+  cancel-in-progress: false
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python scripts/review_queue.py restore
+      - run: python scripts/news.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+          MAX_DRAFTS: ${{ vars.MAX_DRAFTS || '3' }}
+      - run: python scripts/review_queue.py save
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: editorial-drafts
+          path: content/drafts/*.json
+          if-no-files-found: ignore
+          retention-days: 14

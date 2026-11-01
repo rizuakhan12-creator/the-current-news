@@ -1,0 +1,26 @@
+{
+  "slug": "demo-entertainment",
+  "title": "Behind every great film is a world you rarely get to see",
+  "summary": "Look beyond the screen to explore the craft, collaboration and preservation of cinema.",
+  "meta_description": "Look beyond the screen to explore the craft, collaboration and preservation of cinema.",
+  "category": "Entertainment",
+  "author": "The Current Editorial Desk",
+  "published_at": "2026-10-29T09:00:00Z",
+  "paragraphs": [
+    "Film is both a creative work and a record of its time. Preservation helps audiences and researchers access that record beyond its original release.",
+    "This sample explainer demonstrates cultural coverage without inventing a premiere, a review or a quote. The linked National Film Preservation Board resource is a starting point for further reading."
+  ],
+  "tags": [
+    "Film",
+    "Culture"
+  ],
+  "sources": [
+    {
+      "name": "Library of Congress",
+      "url": "https://www.loc.gov/programs/national-film-preservation-board/"
+    }
+  ],
+  "demo": true,
+  "status": "published",
+  "featured": false
+}

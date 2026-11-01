@@ -1,0 +1,26 @@
+{
+  "slug": "demo-world-news",
+  "title": "A wider lens on the world starts with understanding the sources",
+  "summary": "Why original documents and clear attribution belong at the heart of global reporting.",
+  "meta_description": "Why original documents and clear attribution belong at the heart of global reporting.",
+  "category": "World News",
+  "author": "The Current Editorial Desk",
+  "published_at": "2026-10-25T09:00:00Z",
+  "paragraphs": [
+    "International reporting often draws on official statements, local reporting and documentary evidence. Each source has a perspective, and attribution helps readers evaluate a claim.",
+    "This is a sample media literacy explainer, not breaking news. For a real story, an editor should confirm the date and context of primary documents and seek additional reporting where claims are contested."
+  ],
+  "tags": [
+    "World",
+    "Media literacy"
+  ],
+  "sources": [
+    {
+      "name": "United Nations",
+      "url": "https://www.un.org/en/"
+    }
+  ],
+  "demo": true,
+  "status": "published",
+  "featured": false
+}

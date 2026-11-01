@@ -1,0 +1,26 @@
+{
+  "slug": "demo-lifestyle",
+  "title": "Make room for a slower, more curious kind of weekend",
+  "summary": "Small moments of discovery can start close to home, with a book, a walk or a new question.",
+  "meta_description": "Small moments of discovery can start close to home, with a book, a walk or a new question.",
+  "category": "Lifestyle",
+  "author": "The Current Editorial Desk",
+  "published_at": "2026-10-26T09:00:00Z",
+  "paragraphs": [
+    "Cultural experiences can take many forms, from reading and visiting local collections to learning about places and traditions.",
+    "This sample offers a general editorial theme rather than health advice or a recommendation about a specific destination. Use the source link to explore UNESCO’s cultural work."
+  ],
+  "tags": [
+    "Culture",
+    "Everyday life"
+  ],
+  "sources": [
+    {
+      "name": "UNESCO",
+      "url": "https://www.unesco.org/en/culture"
+    }
+  ],
+  "demo": true,
+  "status": "published",
+  "featured": false
+}

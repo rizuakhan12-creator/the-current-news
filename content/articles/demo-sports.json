@@ -1,0 +1,26 @@
+{
+  "slug": "demo-sports",
+  "title": "The stories that make sport bigger than the scoreboard",
+  "summary": "An introduction to the people, rules and shared experiences behind competition.",
+  "meta_description": "An introduction to the people, rules and shared experiences behind competition.",
+  "category": "Sports",
+  "author": "The Current Editorial Desk",
+  "published_at": "2026-10-28T09:00:00Z",
+  "paragraphs": [
+    "A score records an outcome, but sports reporting can also examine preparation, rules and the organizations that shape a competition.",
+    "This is a demonstration of the sports section, not a live result or athlete profile. Check official event resources for dates, rules and confirmed results before publishing news."
+  ],
+  "tags": [
+    "Sport",
+    "Community"
+  ],
+  "sources": [
+    {
+      "name": "Olympics",
+      "url": "https://olympics.com/ioc"
+    }
+  ],
+  "demo": true,
+  "status": "published",
+  "featured": false
+}

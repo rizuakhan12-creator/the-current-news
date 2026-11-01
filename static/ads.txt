@@ -1,0 +1,2 @@
+# Replace with exact authorized seller records provided by your ad network.
+# No publisher IDs are configured.

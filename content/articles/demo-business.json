@@ -1,0 +1,26 @@
+{
+  "slug": "demo-business",
+  "title": "Understanding the economy, one useful question at a time",
+  "summary": "A thoughtful starting point for reading economic headlines with more context.",
+  "meta_description": "A thoughtful starting point for reading economic headlines with more context.",
+  "category": "Business",
+  "author": "The Current Editorial Desk",
+  "published_at": "2026-10-27T09:00:00Z",
+  "paragraphs": [
+    "Economic indicators are measurements with definitions, collection periods and limitations. Reading those details is part of understanding what a headline actually means.",
+    "This example includes no current forecasts, investment recommendations or numerical claims. The World Bank data portal provides documentation for exploring indicators and their sources."
+  ],
+  "tags": [
+    "Economy",
+    "Data"
+  ],
+  "sources": [
+    {
+      "name": "World Bank",
+      "url": "https://data.worldbank.org/"
+    }
+  ],
+  "demo": true,
+  "status": "published",
+  "featured": false
+}

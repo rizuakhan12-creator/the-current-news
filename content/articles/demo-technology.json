@@ -1,0 +1,27 @@
+{
+  "slug": "demo-technology",
+  "title": "A new way to look at the night sky starts with a little curiosity",
+  "summary": "Space exploration can feel distant. Public mission archives offer a closer look at the questions that keep us looking up.",
+  "meta_description": "Space exploration can feel distant. Public mission archives offer a closer look at the questions that keep us looking up.",
+  "category": "Technology",
+  "author": "The Current Editorial Desk",
+  "published_at": "2026-10-30T09:00:00Z",
+  "paragraphs": [
+    "Space science begins with questions about the universe and our place in it. Public mission pages offer a starting point for exploring how researchers observe planets, stars and distant galaxies.",
+    "This demonstration article shows where an editor would explain a development, identify its source and describe what remains uncertain. It is an evergreen layout example, not a report about a new mission.",
+    "For real reporting, follow the source link and check the mission page directly. A published story should distinguish an observation from an interpretation and clearly identify the date of any announcement."
+  ],
+  "tags": [
+    "Space",
+    "Discovery"
+  ],
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/"
+    }
+  ],
+  "demo": true,
+  "status": "published",
+  "featured": true
+}

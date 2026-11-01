@@ -1,0 +1,6 @@
+{
+  "feeds": [
+    {"name": "NASA", "url": "https://www.nasa.gov/feed/", "category": "Technology", "enabled": false, "rights_confirmed": false},
+    {"name": "BBC World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "category": "World News", "enabled": false, "rights_confirmed": false}
+  ]
+}

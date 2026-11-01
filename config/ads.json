@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "network": "adsense",
+  "consent_mode": "external",
+  "adsense_client": "",
+  "slots": {"homepage": "", "article": "", "sidebar": "", "footer": ""},
+  "custom_snippets": {"homepage": "", "article": "", "sidebar": "", "footer": ""},
+  "cmp_head_file": ""
+}
