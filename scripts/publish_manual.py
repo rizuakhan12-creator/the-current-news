@@ -3,8 +3,18 @@ import os
 import re
 import subprocess
 import sys
-from common import ROOT, read, canonical
+from common import ROOT, read, canonical, review_image_path, copy_review_image
 from review_queue import run, open_review, BRANCH
+
+def ensure_image(article):
+    image = article.get('image')
+    if not image:
+        return
+    destination = review_image_path(image, ROOT)
+    if destination.is_file():
+        return
+    run('git','fetch','origin',BRANCH)
+    copy_review_image(image, 'FETCH_HEAD', ROOT)
 
 def main():
     ident = os.getenv('DRAFT_ID', '')
@@ -25,6 +35,7 @@ def main():
         source = run('git','show',f'FETCH_HEAD:content/drafts/{ident}.json')
         path.write_text(source.stdout,encoding='utf-8')
     article = read(path)
+    ensure_image(article)
     source_urls = {canonical(s['url']) for s in article['sources']}
     for published in (ROOT/'content/articles').glob('*.json'):
         if source_urls.intersection(canonical(s['url']) for s in read(published)['sources']):
@@ -33,7 +44,7 @@ def main():
     run('git','config','user.name','github-actions[bot]')
     run('git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com')
     run('git','switch','-c',branch)
-    run('git','add','content/articles','content/drafts')
+    run('git','add','content/articles','content/drafts','static/assets')
     run('git','commit','-m',f'editorial: prepare reviewed article {ident}')
     run('git','push',f'--force-with-lease=refs/heads/{branch}:','origin',f'HEAD:refs/heads/{branch}')
     open_review(branch,'Review manually written article',

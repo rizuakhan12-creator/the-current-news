@@ -21,11 +21,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/review_queue.py restore
+        id: restore
       - run: python scripts/news.py
         env:
           MAX_ITEMS: ${{ vars.MAX_ITEMS || '10' }}
       - run: python scripts/review_queue.py save
-        if: success() || failure()
+        if: ${{ !cancelled() && steps.restore.outcome == 'success' }}
         env:
           GH_TOKEN: ${{ github.token }}
       - uses: actions/upload-artifact@v4

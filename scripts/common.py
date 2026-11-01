@@ -29,6 +29,27 @@ def fingerprint(url):
 def title_key(title):
     return re.sub(r"\W+", "", title.casefold())
 
+def review_image_path(image, root):
+    from pathlib import PurePosixPath
+    path = PurePosixPath(image)
+    if not image.startswith('assets/') or '\\' in image or '..' in path.parts or path.suffix.lower() not in {'.jpg','.jpeg','.png','.webp','.avif','.svg'}:
+        raise ValueError('Image must be a local assets path with a supported extension')
+    destination = (root/'static'/image).resolve()
+    if (root/'static/assets').resolve() not in destination.parents:
+        raise ValueError('Image must remain inside static/assets')
+    return destination
+
+def copy_review_image(image, ref, root):
+    import subprocess
+    destination = review_image_path(image, root)
+    if destination.is_file():
+        return
+    result = subprocess.run(['git','show',f'{ref}:static/{image}'],cwd=root,check=True,capture_output=True)
+    if not result.stdout or len(result.stdout) > 5_000_000:
+        raise ValueError('Review image must be nonempty and at most 5 MB')
+    destination.parent.mkdir(parents=True,exist_ok=True)
+    destination.write_bytes(result.stdout)
+
 def validate(a):
     def require(condition, message):
         if not condition:

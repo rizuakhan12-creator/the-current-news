@@ -6,7 +6,7 @@ Requires GH_TOKEN and the GitHub-hosted runner's gh CLI.
 import json
 import subprocess
 import sys
-from common import ROOT, read, canonical
+from common import ROOT, read, canonical, copy_review_image
 import os
 
 BRANCH='automation/news-drafts'
@@ -49,6 +49,8 @@ def restore():
         a=json.loads(text)
         if any(canonical(s['url']) in published for s in a['sources']):
             continue
+        if a.get('image'):
+            copy_review_image(a['image'], 'FETCH_HEAD', ROOT)
         target=ROOT/name
         if not target.exists(): target.write_text(text,encoding='utf-8')
 
@@ -58,7 +60,7 @@ def save():
     existing=run('git','rev-parse','--verify',f'refs/remotes/origin/{BRANCH}',check=False)
     expected=existing.stdout.strip() if existing.returncode == 0 else ''
     run('git','switch','-C',BRANCH)
-    run('git','add','content/drafts')
+    run('git','add','content/drafts','static/assets')
     if run('git','diff','--cached','--quiet',check=False).returncode == 0:
         print('No draft changes.'); return
     run('git','commit','-m','chore: prepare news drafts for editorial review')

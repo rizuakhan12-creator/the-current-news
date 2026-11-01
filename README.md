@@ -96,9 +96,9 @@ To reject a source permanently, preserve its JSON with status=rejected under con
 
 ## Persistence and publication safety
 
-The scheduled workflow restores only JSON from automation/news-drafts into a clean main checkout. It never executes scripts from the queue branch. Successful collection updates the review branch with a compare-and-swap push. If one feed fails, successfully collected leads can still be saved and a 14-day workflow artifact provides recovery. Human edits should be committed on the queue branch and not made during an active collection run.
+The scheduled workflow restores JSON and its explicitly referenced local images from automation/news-drafts into a clean main checkout. Images must stay within static/assets, use a supported extension and be at most 5 MB. It never executes scripts from the queue branch. Successful collection updates the review branch with a compare-and-swap push. If restore fails, the queue is not overwritten. If one feed fails, successfully collected leads can still be saved and a 14-day workflow artifact provides recovery. Human edits should be committed on the queue branch and not made during an active collection run.
 
-Prepare manual publication imports only the selected JSON, checks for already-published sources, runs approval and creates editorial/DRAFT_ID. It never merges main. Published content remains behind human review. GitHub bot-created PRs may not trigger additional workflows with the default token; human-created editorial PRs do. Main is tested and built on merge.
+Prepare manual publication imports the selected JSON and any referenced image missing from main, checks for already-published sources, runs approval and creates editorial/DRAFT_ID. It never merges main. Published content remains behind human review. GitHub bot-created PRs may not trigger additional workflows with the default token; human-created editorial PRs do. Main is tested and built on merge.
 
 Only content/articles JSON with status=published and explicit reviewer/verification metadata enters the build. Drafts, excerpts, secrets and raw content JSON never enter dist. Repository visibility still controls access to editorial files: this repository is public, so do not put confidential notes in its drafts.
 
