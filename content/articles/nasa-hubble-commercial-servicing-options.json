@@ -1,0 +1,54 @@
+{
+  "id": "c3931c28bbddbc00937f",
+  "slug": "nasa-hubble-commercial-servicing-options",
+  "title": "NASA seeks industry ideas to support Hubble’s future",
+  "summary": "NASA is seeking industry input on ways to support Hubble, including an orbital boost, servicing and eventual disposal.",
+  "meta_description": "NASA is seeking industry input on Hubble servicing, a possible orbital boost and options for the telescope’s eventual disposal.",
+  "author": "The Current Editorial Desk",
+  "paragraphs": [
+    "NASA is asking the space industry how commercial spacecraft could help support the Hubble Space Telescope. In an October 30 update, the agency said it had issued a request for information the previous day to explore available capabilities.",
+    "The request covers several possibilities: raising Hubble’s orbit to extend its scientific work, servicing the observatory to improve its capabilities, and arranging a controlled atmospheric re-entry or orbital disposal when its mission ends.",
+    "NASA explains that atmospheric drag gradually lowers Hubble’s altitude. The telescope has no propulsion system to maintain its own orbit. That makes its future orbit and eventual disposal part of the agency’s planning.",
+    "The announcement is an information-gathering step. It describes possible work for industry to consider, rather than confirming a servicing flight. Readers can consult NASA’s original announcement and the linked request for the agency’s current requirements."
+  ],
+  "tags": [
+    "Hubble",
+    "NASA",
+    "Space technology"
+  ],
+  "status": "published",
+  "content_origin": "rss_manual",
+  "ai_assisted": true,
+  "needs_more_reporting": false,
+  "verification_notes": [
+    "Draft prepared with assistance in this chat; no paid API request or automated article generation was used.",
+    "Claims checked against NASA's October 30, 2026 primary announcement. No direct quotes or unconfirmed launch claims added.",
+    "Featured image: archival February 1997 photograph credited to NASA on the primary source page. Caption explicitly distinguishes it from the proposed future servicing.",
+    "Publisher explicitly authorized publication in this chat after reviewing the article and archival photograph. Source checks were performed by the assistant; chat assistance is disclosed."
+  ],
+  "source_title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+  "source_excerpt": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+  "source_published_at": "2026-10-30T14:51:21+00:00",
+  "fetched_at": "2026-11-01T10:58:09.557522+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope"
+    }
+  ],
+  "featured": true,
+  "demo": false,
+  "image": "assets/hubble-1997-nasa.jpg",
+  "image_alt": "The Hubble Space Telescope above Earth after its second servicing mission in February 1997.",
+  "image_credit": "Hubble after its second servicing mission, February 1997. Photo: NASA (archival image).",
+  "image_source_url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+  "image_original_url": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2023/04/2/27946391011_d40ff10573_h.jpg",
+  "image_license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "image_width": 1536,
+  "image_height": 1020,
+  "reviewed_by": "Codex (source checks), with publisher approval",
+  "verified_at": "2026-11-01T11:28:58.824994+00:00",
+  "published_at": "2026-11-01T11:28:58.824994+00:00"
+}
+
