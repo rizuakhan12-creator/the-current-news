@@ -8,13 +8,21 @@ import unittest
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import news
 
 class RSSTests(unittest.TestCase):
+    def test_fetch_preserves_feed_trailing_slash(self):
+        opener=MagicMock()
+        opener.open.return_value.__enter__.return_value.read.return_value=b'<rss/>'
+        with patch.object(news,'build_opener',return_value=opener):
+            self.assertEqual(news.fetch('https://example.org/feed/'),b'<rss/>')
+        request=opener.open.call_args.args[0]
+        self.assertEqual(request.full_url,'https://example.org/feed/')
+
     def test_atom_and_unsafe_xml(self):
         atom=b'<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>Source title</title><link href="https://example.org/a"/><summary>Short evidence</summary><updated>2026-10-30T09:00:00Z</updated></entry></feed>'
         self.assertEqual(news.parse_feed(atom)[0]['url'],'https://example.org/a')

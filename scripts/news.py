@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from urllib.request import HTTPRedirectHandler, Request, build_opener
+from urllib.error import HTTPError
 from common import ROOT, read, write, canonical, fingerprint, title_key
 
 class NoRedirect(HTTPRedirectHandler):
@@ -18,7 +19,8 @@ def clean(value):
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]*>', ' ', value or ''))).strip()
 
 def fetch(url):
-    request = Request(canonical(url), headers={'User-Agent': 'TheCurrentRSSReader/1.0'})
+    canonical(url)  # Validate HTTPS without rewriting a feed endpoint's trailing slash.
+    request = Request(url, headers={'User-Agent': 'TheCurrentRSSReader/1.0'})
     with build_opener(NoRedirect).open(request, timeout=30) as response:
         data = response.read(2_000_001)
         if len(data) > 2_000_000:
@@ -110,7 +112,8 @@ def main():
                 created += 1
         except Exception as exc:
             errors += 1
-            print(f"Feed failed: {feed['name']} ({type(exc).__name__}). Check the final HTTPS feed URL.", file=sys.stderr)
+            detail = f'HTTP {exc.code}' if isinstance(exc, HTTPError) else type(exc).__name__
+            print(f"Feed failed: {feed['name']} ({detail}). Check the final HTTPS feed URL.", file=sys.stderr)
     print(f'Collected {created} RSS leads; {errors} feed errors; {skipped} invalid entries. No articles published. No AI requests made.')
     if errors:
         sys.exit(1)
