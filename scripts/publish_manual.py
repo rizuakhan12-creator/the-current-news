@@ -37,7 +37,7 @@ def main():
     run('git','commit','-m',f'editorial: prepare reviewed article {ident}')
     run('git','push',f'--force-with-lease=refs/heads/{branch}:','origin',f'HEAD:refs/heads/{branch}')
     open_review(branch,'Review manually written article',
-        f'Prepared after explicit source and rights verification by {reviewer}. Inspect the article before merging to main. No AI generation was used.')
+        f'Prepared after explicit source and rights verification by {reviewer}. Inspect the article before merging to main. The publication workflow makes no AI API requests. Check the article disclosure for any chat-assisted writing.')
 
 if __name__ == '__main__':
     main()
