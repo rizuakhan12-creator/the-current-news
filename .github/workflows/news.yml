@@ -42,7 +42,17 @@ jobs:
                   sys.exit('OpenAI request did not complete; inspect model configuration.')
               print('OpenAI API connection and generation test passed. No secret or response text logged.')
           except APIStatusError as exc:
-              code = exc.code if exc.code in {'insufficient_quota', 'invalid_api_key', 'model_not_found', 'rate_limit_exceeded'} else 'request_rejected'
+              body = exc.body if isinstance(exc.body, dict) else {}
+              error = body.get('error', body)
+              error = error if isinstance(error, dict) else {}
+              code = exc.code or error.get('code') or error.get('type')
+              message = str(error.get('message', '')).lower()
+              if exc.status_code == 429 and any(word in message for word in ('quota', 'billing', 'credit', 'balance', 'budget')):
+                  code = 'insufficient_quota'
+              elif exc.status_code == 429 and ('rate limit' in message or 'rate_limit' in str(code)):
+                  code = 'rate_limit_exceeded'
+              allowed = {'insufficient_quota', 'invalid_api_key', 'model_not_found', 'rate_limit_exceeded'}
+              code = code if code in allowed else 'request_rejected'
               sys.exit(f'OpenAI API test failed: HTTP {exc.status_code}, code={code}. Check project billing, key permissions and model access.')
           except APIConnectionError:
               sys.exit('OpenAI connection failed. Retry after checking service connectivity.')
