@@ -1,150 +1,123 @@
-# The Current — source-linked news publishing
+# The Current — RSS collection + manual publishing
 
-A responsive, static HTML/CSS/JavaScript news portal with Python RSS discovery, OpenAI-assisted drafting, an editorial review queue, and optional advertising. No application server or database is needed. Production builds exclude all demonstration articles. There are no fabricated current news reports or publisher codes.
+Live site: https://rizuakhan12-creator.github.io/the-current-news/
+Repository: https://github.com/rizuakhan12-creator/the-current-news
 
-## Run locally
+A responsive HTML/CSS/JavaScript news portal with a Python RSS reading list and explicit editorial approval. **No OpenAI calls, API keys, paid AI services, or Python packages are required.** The existing OpenAI secret is unused. Hosting and GitHub Actions remain subject to your account's free allowances; no unlimited free hosting or ad income is promised.
 
-Requires Python 3.12+ and Git. No Node dependencies or frontend bundler are needed.
+## আপনার কাজের ধাপ
 
-```sh
+1. GitHub → **Actions → Collect RSS for manual review → Run workflow**। সময়সূচি অনুযায়ী এটি ছয় ঘণ্টা পরপরও চলে।
+2. **Code → branch → automation/news-drafts → content/drafts** খুলুন। প্রতিটি JSON-এ source_title, source_excerpt এবং sources-এর original link দেখুন।
+3. Original source পড়ে তথ্য যাচাই করুন। GitHub-এর edit বোতাম দিয়ে একই draft JSON-এ নিজের লেখা title, summary, meta_description, author, paragraphs এবং tags লিখুন। source_excerpt কপি করে article বানাবেন না। লেখার ভাষা বাংলা বা ইংরেজি হতে পারে; URL slug ASCII রাখুন।
+4. তথ্য, attribution ও reuse rights যাচাই হয়ে গেলে needs_more_reporting-এর মান false করুন। সম্পাদিত JSON **automation/news-drafts branch-এই** commit করুন।
+5. **Actions → Prepare manual publication → Run workflow** খুলুন। Branch main রাখুন। Draft-এর 20-character filename দিন (.json বাদ দিয়ে), verification checkbox-এ সম্মতি দিন, তারপর Run workflow চাপুন।
+6. Workflow summary-র review link খুলুন। তৈরি হওয়া editorial branch/PR-এর article দেখুন। সব ঠিক থাকলে PR ready করে main-এ merge করুন। এরপর Pages workflow article প্রকাশ করবে।
+
+GitHub bot-এর PR তৈরির অনুমতি না থাকলেও draft/editorial branch সেভ হয়। Workflow summary-র compare link দিয়ে নিজে PR খুলতে পারবেন। কোনো permission বাড়ানো বাধ্যতামূলক নয়। আপনার লিখিত verification ছাড়া source excerpt বা খালি article প্রকাশ হয় না।
+
+## Local preview and tests
+
+Requires Python 3.12+. Frontend build dependencies and pip installation are unnecessary.
+
+PowerShell:
+
+```powershell
+$env:SITE_URL='http://localhost:4173'
 python scripts/build.py
 python -m http.server 4173 --directory dist
 ```
 
-Open `http://localhost:4173`. The six included evergreen explainers are visibly marked **DEMO**. All development pages are noindex. Do not deploy the development build as a live news publication.
+Bash:
 
 ```sh
-python -m venv .venv
-# macOS/Linux: source .venv/bin/activate
-# PowerShell: .venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
+SITE_URL=http://localhost:4173 python scripts/build.py
+python -m http.server 4173 --directory dist
+```
+
+Open http://localhost:4173. Six clearly labeled evergreen demo explainers appear in development. Production excludes them and starts empty until reviewed articles are published.
+
+```sh
 python -m unittest discover -s tests -v
+python -m compileall -q scripts
+node --check static/assets/app.js
 ```
 
-The build itself needs only the Python standard library. Ingestion needs the packages in `requirements.txt`. `.env.example` documents settings; scripts read process environment variables, not `.env` files automatically. Never commit a real `.env` or API key.
+The tests cover RSS/Atom parsing, unsafe XML, deduplication, empty-draft rejection, manual approval, HTML escaping, source/draft exclusions and GitHub project paths. Node is only needed for the optional JavaScript syntax check.
 
-## Layout
+## Configuration and collection
 
-```text
-config/site.json        publication name, contact, categories, fallback URL
-config/feeds.json       opt-in source feeds and rights confirmation
-config/ads.json         public publisher configuration (disabled by default)
-content/articles/       reviewed, published JSON; includes development samples
-content/drafts/         private editorial staging; never copied to dist
-scripts/news.py         RSS to attributed AI drafts
-scripts/approve.py      explicit editorial verification and publication
-scripts/review_queue.py persistent GitHub draft-review branch
-scripts/build.py        static HTML, metadata, search index, sitemap, robots
-static/assets/          local fonts via system stacks, CSS, JS, original SVG art
-static/ads.txt          authorized-seller records supplied by your network
-tests/                  review, duplicate, deployment-path and leak checks
-.github/workflows/      scheduled drafting and validated deployment
-dist/                   generated hosting output; ignored by Git
+- config/site.json: publication name, description, contact email and six categories.
+- config/feeds.json: configured HTTPS feeds. NASA is enabled for attributed editorial leads. BBC is an example, disabled pending review of its reuse terms.
+- MAX_ITEMS: GitHub Actions variable, default 10 and hard maximum 30 new leads per run.
+- .github/workflows/news.yml: default schedule is minute 17 every six hours, UTC. GitHub schedules may be delayed.
+- .env.example: documents environment variables. Scripts read process variables; no .env loader is installed.
+- config/ads.json: public advertising configuration, disabled by default. See [ADS.md](ADS.md).
+
+RSS collection reads at most 30 entries per feed with a 30-second timeout and 2 MB cap. It accepts RSS 2.0, RSS 1.0/RDF and Atom, rejects external redirects and DTD/entity declarations, and does not scrape linked pages or copy images/full articles. It strips excerpt HTML and limits stored source excerpts to 1,200 characters. Invalid URLs and dates are skipped individually. Dated items older than seven days or more than one hour in the future are skipped. Undated leads may be collected for manual investigation and retain a null source date.
+
+Canonical source URLs remove tracking parameters/fragments; normalized source headlines prevent exact title variants. Existing pending, rejected and published content is included in deduplication. Editors still need to recognize different publishers' coverage of the same event.
+
+NASA factual news usage requires attribution and must not imply endorsement; third-party content can have separate rights. Review [NASA's usage guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) and each original article before writing or reusing material. Enabling a feed does not license every item or image.
+
+## What a collected lead contains
+
+A lead saves source_title, source_excerpt, source_published_at, fetched_at and sources. It sets status=draft, content_origin=rss_manual, ai_assisted=false, needs_more_reporting=true. Publishing fields are deliberately empty.
+
+When editing a lead, fill these fields with your own checked writing:
+
+```json
+{
+  "title": "Your original headline",
+  "summary": "Your original summary of the checked story.",
+  "meta_description": "A concise original search description.",
+  "author": "Your byline",
+  "paragraphs": ["Your first checked paragraph.", "Your next checked paragraph."],
+  "tags": ["Your topic"],
+  "needs_more_reporting": false
+}
 ```
 
-## Put this project in GitHub
+This is a partial editing example; preserve the draft's id, slug, sources, category and other fields. Add additional sources used in your reporting. The publication workflow records the GitHub actor as reviewer and assigns your publication date. It does not treat the source publication date as your article's publication date.
 
-Use the **contents of this folder** as the repository root; `.github` must be at the top level. This deliverable was prepared locally because no target repository was supplied.
-
-Create an empty repository in GitHub, then from this folder:
+## Approve from a local checkout
 
 ```sh
-git init
-git add .
-git commit -m "Build source-linked news publication"
-git branch -M main
-git remote add origin https://github.com/YOUR_ACCOUNT/YOUR_REPOSITORY.git
-git push -u origin main
+git fetch origin automation/news-drafts
+git switch -c editorial/review-story origin/main
+git restore --source=origin/automation/news-drafts -- content/drafts
+# Edit the chosen JSON, write original text, check every fact and set needs_more_reporting=false.
+python scripts/approve.py DRAFT_ID --reviewer "Editor Name" --verified
 ```
 
-Replace the remote URL. If importing into an existing repository, use its normal branch and PR process instead. Set the default branch to `main` or update both workflows accordingly. Protect `main` and require editorial review. Fork PR workflows have no access to the OpenAI secret.
+Inspect the diff, commit the approved article and draft deletion, open an editorial PR and merge after review. The web workflow does the same branch preparation. It rejects an existing editorial branch to preserve ongoing edits. Approval rejects non-drafts, unresolved reporting, missing text/byline/metadata, invalid URLs or missing verification.
 
-## Cloudflare Pages deployment
+To reject a source permanently, preserve its JSON with status=rejected under content/drafts on main via a PR. Simply deleting it can allow a future feed entry to reintroduce it.
 
-1. Connect the GitHub repository in Workers & Pages → Create → Pages → Import Git repository.
-2. Framework preset: None. Build command: `python scripts/build.py`. Output directory: `dist`.
-3. Set build environment variables `SITE_URL=https://your-final-domain.example`, `PRODUCTION=1`, `INCLUDE_DEMOS=0`. Choose a Python 3.12+ build environment. No OpenAI key belongs in the Pages environment.
-4. Set the same `SITE_URL` as a GitHub repository Actions variable so PR checks build correctly. Set `DEPLOY_TARGET=cloudflare` to skip the GitHub Pages deploy job.
-5. Deploy `main`. Add your domain in Pages, complete its DNS instructions, then rebuild with the final canonical domain. Disable production ads on preview deployments (`PRODUCTION=0`), and keep previews noindex.
+## Persistence and publication safety
 
-Cloudflare automatically rebuilds after approved content merges. See [Cloudflare static HTML guide](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/).
+The scheduled workflow restores only JSON from automation/news-drafts into a clean main checkout. It never executes scripts from the queue branch. Successful collection updates the review branch with a compare-and-swap push. If one feed fails, successfully collected leads can still be saved and a 14-day workflow artifact provides recovery. Human edits should be committed on the queue branch and not made during an active collection run.
 
-## GitHub Pages deployment
+Prepare manual publication imports only the selected JSON, checks for already-published sources, runs approval and creates editorial/DRAFT_ID. It never merges main. Published content remains behind human review. GitHub bot-created PRs may not trigger additional workflows with the default token; human-created editorial PRs do. Main is tested and built on merge.
 
-1. Repository Settings → Pages → Build and deployment → Source: **GitHub Actions**.
-2. GitHub Pages deployment is the default. The workflow automatically derives `https://YOUR_ACCOUNT.github.io/YOUR_REPOSITORY`; optionally set Actions variables `DEPLOY_TARGET=github` and `SITE_URL` to override it. For an account-root repository (`YOUR_ACCOUNT.github.io`), set `SITE_URL=https://YOUR_ACCOUNT.github.io` explicitly.
-3. Push to `main` or run **Validate and deploy site**. It tests, builds and uploads `dist`, then deploys with Pages OIDC permissions. PRs build only.
-4. For a custom domain, set `SITE_URL=https://news.yourdomain.example`, create `static/CNAME` containing that domain, configure Pages/DNS, and rebuild.
+Only content/articles JSON with status=published and explicit reviewer/verification metadata enters the build. Drafts, excerpts, secrets and raw content JSON never enter dist. Repository visibility still controls access to editorial files: this repository is public, so do not put confidential notes in its drafts.
 
-The builder derives the base path from `SITE_URL`; category links, article URLs, assets, search and metadata work beneath `/YOUR_REPOSITORY/`. A custom domain is recommended for ads because `ads.txt` is expected at the domain root. Project Pages cannot supply `https://YOUR_ACCOUNT.github.io/ads.txt` from a repository subpath.
+## Deployment
 
-See [GitHub custom deployment workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages). Hosting eligibility, usage limits and advertising policies should be checked for your intended publication.
+This repository is already deployed with GitHub Pages. Main changes trigger .github/workflows/pages.yml.
 
-## Configure RSS and OpenAI
+For a new GitHub repository, upload this folder's contents (including .github) at repository root. Select Settings → Pages → Source: GitHub Actions. The workflow derives https://OWNER.github.io/REPOSITORY automatically. Optional Actions variables: SITE_URL for a canonical/custom domain and DEPLOY_TARGET=github. For an account-root Pages repository, explicitly set SITE_URL=https://OWNER.github.io.
 
-1. Review each source's feed license and reuse terms. Attribution alone does not grant republication rights. Example feeds are **disabled** until you set `enabled` and `rights_confirmed` to `true` in `config/feeds.json`. Use final HTTPS feed addresses; automatic redirects are deliberately rejected. Add your licensed sources for all six categories.
-2. Add `OPENAI_API_KEY` in GitHub Actions **Secrets**. Set `OPENAI_MODEL` as a repository variable to a Structured Outputs-capable model your account can access. The default is `gpt-4.1-mini`; change it for your needs. Set API spend limits in your OpenAI project.
-3. Optional variable: `MAX_DRAFTS` (default 3, hard maximum 10 per run). Edit the UTC cron in `.github/workflows/news.yml`; default is every six hours at minute 17. GitHub schedules may be delayed and inactive-repository schedules may need re-enabling.
-4. Repository Settings → Actions → General: allow GitHub Actions to create pull requests. The draft job requires `contents: write` and `pull-requests: write`; it never merges or publishes an article.
-5. Run **Draft news for editorial review** manually first. It fetches at most 30 entries per feed, skips old or undated entries and short excerpts, deduplicates canonical URLs and normalized source titles, and saves bounded, structured drafts. It uses the [OpenAI Responses Structured Outputs API](https://developers.openai.com/api/docs/guides/structured-outputs) with `store=False`.
+For Cloudflare Pages, connect the repository, choose framework None, build command python scripts/build.py, output dist, Python 3.12+, and build variables SITE_URL=https://YOUR_DOMAIN, PRODUCTION=1, INCLUDE_DEMOS=0. Set GitHub Actions DEPLOY_TARGET=cloudflare to skip GitHub Pages deployment, and SITE_URL to the same canonical URL for CI.
 
-Original source URLs are selected by code, not invented by the model. Source text is stripped of HTML and treated as untrusted input. Only the configured feeds are fetched, with timeouts and a 2 MB cap; linked webpages are not scraped. Feed snippets alone may be incomplete, misleading or wrong. The model's output is a **draft**, never verified reporting. Editors must open the source, check every claim and add evidence or discard the story. The script records source excerpts, fetch time and source publication time in the private draft JSON.
+For a custom GitHub Pages domain, add static/CNAME with your domain, configure Pages/DNS, update SITE_URL and rebuild. See [GitHub workflow deployment](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) and [Cloudflare static hosting](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/).
 
-Canonical URLs remove tracking parameters and fragments. Normalized title matching also blocks exact title variants with punctuation differences. Different publishers' coverage of the same event can still require human deduplication; this is not a semantic plagiarism detector.
+## Site features, images and monetization
 
-## Manual approval and publication
+The portal includes six categories, trending/latest/featured sections, article pages, related reading, local search, theme switching, source attribution, sitemap, robots, canonical/Open Graph metadata and NewsArticle schema for reviewed production articles. Search indexes only published title/summary/tag metadata.
 
-The scheduled job maintains `automation/news-drafts` and a draft PR. Each run restores only pending JSON from that branch into a clean `main` checkout, checks those drafts and published articles for duplicates, and updates the queue with a compare-and-swap Git push. It does not execute scripts from the review branch. Workflow artifacts provide a 14-day recovery copy. Keep review history in Git, and avoid editing the bot branch while a run is active.
+Original local SVG category illustrations have fixed dimensions, lazy secondary loading and explicit illustration credits. For a licensed photo, add it under static/assets and set image to its assets/... path, with image_alt and image_credit. Prefer optimized WebP/AVIF and confirm rights; source RSS images are never copied automatically. Use raster social images if your target platform does not support SVG Open Graph previews.
 
-1. Fetch the review branch and create your own editorial branch from current `main`:
+Before monetization, configure a working contact email and publisher identity, adapt the policy templates to actual practices, publish useful original reporting, and obtain network approval. [ADS.md](ADS.md) explains AdSense, Adsterra and Monetag adapter limitations, consent requirements, publisher codes and root-domain ads.txt. The built-in privacy choice is not a certified CMP; production ads require an external validated consent signal. No fake ad codes or intrusive formats are installed.
 
-   ```sh
-   git fetch origin automation/news-drafts
-   git switch -c editorial/review-story origin/main
-   git restore --source=origin/automation/news-drafts -- content/drafts
-   ```
-
-2. Inspect each draft's `source_excerpt`, original source URLs and `verification_notes`. Independently check facts, dates, quotes, names, numbers and context. Confirm text and image rights. Improve the reporting; do not pad a short excerpt with invented background. Resolve `needs_more_reporting` only after obtaining adequate evidence.
-3. Edit the JSON's title, body paragraphs, summary, metadata, tags and author. Add all sources used; source objects contain `name` and an HTTPS `url`. Do not include HTML in body text.
-4. Approve a checked story explicitly:
-
-   ```sh
-   python scripts/approve.py DRAFT_FILENAME_WITHOUT_JSON --reviewer "Editor Name" --verified
-   python -m unittest discover -s tests -v
-   # Set SITE_URL and PRODUCTION=1 in the shell before a production check:
-   python scripts/build.py
-   ```
-
-   PowerShell: `$env:SITE_URL='https://yourdomain.example'; $env:PRODUCTION='1'`.
-   Bash: `SITE_URL=https://yourdomain.example PRODUCTION=1 python scripts/build.py`.
-
-5. Commit `content/articles` and the reviewed draft deletion on the editorial branch, open a PR, inspect the generated article, and merge after review. `published_at` is your publication date; `source_published_at` remains separate. The build rejects non-demo articles without reviewer and verification fields. This attestation records human responsibility; software cannot establish factual truth.
-6. The next queue refresh omits drafts whose source URLs are now published. Do not merge the bot PR to publish unverified stories. To retain a rejected story in the duplicate set, keep its JSON with `status: "rejected"` under `content/drafts` on `main` via a review PR. Do not just delete it, or a later feed entry can reintroduce it.
-
-No automatic publication mode is enabled. The manual approval step is intentional. If the bot lacks branch/PR permissions or races a human update, it fails visibly instead of bypassing protections. Check the workflow log and restore the artifact if needed. GitHub automation-created PRs may not trigger additional Actions workflows with the default token; your human-created editorial PR does.
-
-## Article format and images
-
-The checked-in examples show the JSON format. Required fields include `slug`, `title`, `summary`, `meta_description`, `category`, `author`, timezone-aware `published_at`, `paragraphs`, `tags`, `sources`, `status: "published"`, `reviewed_by`, `verified_at`. AI-assisted articles set `ai_assisted: true` and disclose review on the page. Never change `demo` to bypass review.
-
-Every category has original local SVG editorial artwork with fixed dimensions and descriptive article alt text. It is explicitly labeled an illustration, never a documentary image of an event. To use a licensed photograph, add it under `static/assets/`, set `image` to its `assets/...` path, and supply `image_alt` and `image_credit`. Prefer compressed WebP/AVIF, provide the source's license/credit, and keep images approximately 1000 × 640. Never copy an RSS image without permission.
-
-## Advertising and launch
-
-Read [ADS.md](ADS.md) for actual publisher code, consent, ads.txt and placement setup. Ad scripts are disabled in development and in the supplied production configuration. This project cannot register your publisher account, obtain approval, or provide real publisher codes.
-
-Before launch, update `config/site.json` with your identity and working editorial email, replace the starter policy language with your actual policies, publish substantive original reporting, verify accessibility and mobile layouts, then apply to your chosen network. Do not apply with an empty production edition. Do not buy fake traffic, encourage ad clicks, disguise ads as headlines, or use unlicensed copied articles. Approval, traffic and revenue are not guaranteed.
-
-## SEO, performance and operations
-
-- Static per-article HTML and clean directory URLs work without client routing. Each page gets a title, description, canonical and Open Graph metadata. Published non-demo articles have `NewsArticle` structured data. Demo articles are noindex and excluded from the sitemap.
-- Sitemap and robots use `SITE_URL`. Submit the sitemap in search engine webmaster tools after launch; indexability does not guarantee ranking. Do not mass-produce low-value paraphrases to manipulate rankings.
-- Local system fonts, small JS/CSS, fixed image dimensions, lazy secondary images and no framework runtime keep the critical path small. Measure actual LCP/CLS/INP on mobile after adding real images, ads and a CMP. No unmeasured Core Web Vitals score is claimed.
-- Search downloads only published title/summary/tag metadata. It uses DOM text APIs rather than interpolating user input as HTML. Consider a hosted search index if the archive becomes too large for a browser download.
-- No OpenAI calls occur in the browser; only trusted scheduled automation receives the key. Draft evidence is excluded from `dist`. Private draft confidentiality also depends on repository visibility: use a private repository if source excerpts or editorial work must remain private.
-- Trusted ad snippets and CMP head files execute publisher-controlled third-party code. Restrict who can edit them, review vendor domains, and do not accept visitor-supplied code. Add a tested CSP for the exact vendor domains after integration; no broad wildcard CSP is supplied.
-- Use protected branches and dependency update reviews. Major Actions tags and bounded Python dependencies are readable starter settings; for a hardened production deployment, review and pin verified Action commit SHAs and a dependency lockfile with hashes.
-
-## Verification
-
-`python -m unittest discover -s tests -v` checks URL deduplication, editorial gating, internal links under a repository base path, secret/draft exclusions, and production exclusion of demo content. `node --check static/assets/app.js` checks browser JavaScript syntax when Node is available. Paid OpenAI requests and real ad impressions are not part of tests. Those require your credentials and network accounts.
+System fonts, static HTML and small local CSS/JS keep the critical path light. Measure actual Core Web Vitals after adding photos, a CMP and real ads; no unmeasured score is claimed. Keep trusted ad snippets/config protected, review dependencies and protect main. Legacy AI-assisted article disclosures remain supported, but no current collection or publication workflow invokes an AI service.

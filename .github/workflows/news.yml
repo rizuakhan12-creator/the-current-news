@@ -1,7 +1,7 @@
-name: Draft news for editorial review
+name: Collect RSS for manual review
 on:
   schedule:
-    - cron: '17 */6 * * *' # UTC; edit to change frequency
+    - cron: '17 */6 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -10,9 +10,9 @@ concurrency:
   group: news-drafts
   cancel-in-progress: false
 jobs:
-  draft:
+  collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,57 +20,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
-      - run: pip install -r requirements.txt
-      - name: Verify OpenAI connection on manual runs
-        if: github.event_name == 'workflow_dispatch'
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
-        run: |
-          python - <<'PY'
-          import os
-          import sys
-          from openai import OpenAI, APIStatusError, APIConnectionError
-          if not os.getenv('OPENAI_API_KEY'):
-              sys.exit('OPENAI_API_KEY secret is missing.')
-          try:
-              response = OpenAI(timeout=30, max_retries=0).responses.create(
-                  model=os.getenv('OPENAI_MODEL', 'gpt-4.1-mini'),
-                  input='Reply with OK.', max_output_tokens=32, store=False)
-              if response.status != 'completed':
-                  sys.exit('OpenAI request did not complete; inspect model configuration.')
-              print('OpenAI API connection and generation test passed. No secret or response text logged.')
-          except APIStatusError as exc:
-              body = exc.body if isinstance(exc.body, dict) else {}
-              error = body.get('error', body)
-              error = error if isinstance(error, dict) else {}
-              code = exc.code or error.get('code') or error.get('type')
-              message = str(error.get('message', '')).lower()
-              if exc.status_code == 429 and any(word in message for word in ('quota', 'billing', 'credit', 'balance', 'budget')):
-                  code = 'insufficient_quota'
-              elif exc.status_code == 429 and ('rate limit' in message or 'rate_limit' in str(code)):
-                  code = 'rate_limit_exceeded'
-              allowed = {'insufficient_quota', 'invalid_api_key', 'model_not_found', 'rate_limit_exceeded'}
-              code = code if code in allowed else 'request_rejected'
-              sys.exit(f'OpenAI API test failed: HTTP {exc.status_code}, code={code}. Check project billing, key permissions and model access.')
-          except APIConnectionError:
-              sys.exit('OpenAI connection failed. Retry after checking service connectivity.')
-          PY
       - run: python scripts/review_queue.py restore
       - run: python scripts/news.py
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
-          MAX_DRAFTS: ${{ vars.MAX_DRAFTS || '3' }}
+          MAX_ITEMS: ${{ vars.MAX_ITEMS || '10' }}
       - run: python scripts/review_queue.py save
+        if: success() || failure()
         env:
           GH_TOKEN: ${{ github.token }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: editorial-drafts
+          name: rss-editorial-leads
           path: content/drafts/*.json
           if-no-files-found: ignore
           retention-days: 14
-

@@ -1,0 +1,37 @@
+name: Prepare manual publication
+on:
+  workflow_dispatch:
+    inputs:
+      draft_id:
+        description: '20-character draft filename, without .json'
+        required: true
+        type: string
+      verified:
+        description: 'I wrote original copy and checked every claim, source and reuse right'
+        required: true
+        default: false
+        type: boolean
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: manual-publication
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/publish_manual.py
+        env:
+          DRAFT_ID: ${{ inputs.draft_id }}
+          CONFIRM_VERIFIED: ${{ inputs.verified }}
+          REVIEWER: ${{ github.actor }}
+          GH_TOKEN: ${{ github.token }}

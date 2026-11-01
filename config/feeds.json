@@ -1,6 +1,6 @@
 {
   "feeds": [
-    {"name": "NASA", "url": "https://www.nasa.gov/feed/", "category": "Technology", "enabled": false, "rights_confirmed": false},
+    {"name": "NASA", "url": "https://www.nasa.gov/feed/", "category": "Technology", "enabled": true, "rights_confirmed": true, "rights_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/", "notes": "Source-attributed editorial leads only. Check third-party material and rights per article; no images or full articles copied."},
     {"name": "BBC World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "category": "World News", "enabled": false, "rights_confirmed": false}
   ]
 }

@@ -13,6 +13,8 @@ if not __import__('re').fullmatch(r"[a-f0-9]{20}", args.id):
     parser.error("Use the 20-character draft filename ID")
 path = ROOT / "content/drafts" / f"{args.id}.json"
 article = read(path)
+if article.get('status') != 'draft':
+    parser.error('Only a pending draft can be approved')
 if article.get("needs_more_reporting"):
     parser.error("Resolve verification_notes and set needs_more_reporting=false after additional reporting")
 if not args.reviewer.strip():
