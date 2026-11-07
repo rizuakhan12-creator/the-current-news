@@ -1,0 +1,32 @@
+{
+  "id": "7639b081a722e4aeeb13",
+  "slug": "rss-7639b081a722e4aeeb13",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Vega Island Frozen in Fright",
+  "source_excerpt": "The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.",
+  "source_published_at": "2026-10-30T04:01:00+00:00",
+  "fetched_at": "2026-11-01T10:58:09.557859+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

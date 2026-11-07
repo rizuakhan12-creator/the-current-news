@@ -1,0 +1,32 @@
+{
+  "id": "de6d65e3030fdaab6c9c",
+  "slug": "rss-de6d65e3030fdaab6c9c",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "November’s Night Sky Notes: Light-Day Away",
+  "source_excerpt": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons. […]",
+  "source_published_at": "2026-10-30T10:00:00+00:00",
+  "fetched_at": "2026-11-01T10:58:09.557632+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}
