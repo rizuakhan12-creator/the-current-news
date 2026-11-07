@@ -1,0 +1,32 @@
+{
+  "id": "c546feec3ff82ee7e2c8",
+  "slug": "rss-c546feec3ff82ee7e2c8",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
+  "source_excerpt": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of […]",
+  "source_published_at": "2026-10-30T00:07:39+00:00",
+  "fetched_at": "2026-11-01T10:58:09.557984+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

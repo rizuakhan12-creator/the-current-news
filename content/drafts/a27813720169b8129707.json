@@ -1,0 +1,32 @@
+{
+  "id": "a27813720169b8129707",
+  "slug": "rss-a27813720169b8129707",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Releases MAX POWER Key Events for Media, Participants",
+  "source_excerpt": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
+  "source_published_at": "2026-10-30T19:31:02+00:00",
+  "fetched_at": "2026-11-01T10:58:09.557287+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}
