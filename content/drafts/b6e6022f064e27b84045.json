@@ -1,0 +1,32 @@
+{
+  "id": "b6e6022f064e27b84045",
+  "slug": "rss-b6e6022f064e27b84045",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA’s CHAPEA Crew “Returns” to Earth",
+  "source_excerpt": "The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Crew members Matthew Montgomery (left), James Spicer (middle left), Ross Elder (middle right), and Ellen Ellis (right) spent more than a year […]",
+  "source_published_at": "2026-11-02T18:50:42+00:00",
+  "fetched_at": "2026-11-03T23:24:59.189253+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

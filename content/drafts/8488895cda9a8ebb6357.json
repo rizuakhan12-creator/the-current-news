@@ -1,0 +1,32 @@
+{
+  "id": "8488895cda9a8ebb6357",
+  "slug": "rss-8488895cda9a8ebb6357",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Announces $1 Million to Students for Moon Base Challenge",
+  "source_excerpt": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites student teams at U.S. high schools and post-secondary schools to contribute designs for the Moon Base. “We’re […]",
+  "source_published_at": "2026-11-08T15:26:38+00:00",
+  "fetched_at": "2026-11-08T22:07:52.632888+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

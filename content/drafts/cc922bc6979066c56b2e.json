@@ -1,0 +1,32 @@
+{
+  "id": "cc922bc6979066c56b2e",
+  "slug": "rss-cc922bc6979066c56b2e",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
+  "source_excerpt": "As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept. 21, 2012, while millions watched space shuttle Endeavour fly on top of the agency’s 747 Shuttle Carrier Aircraft for the last time. Endeavour’s new home […]",
+  "source_published_at": "2026-11-12T13:00:00+00:00",
+  "fetched_at": "2026-11-12T19:55:56.843720+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

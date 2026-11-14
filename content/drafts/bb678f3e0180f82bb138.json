@@ -1,0 +1,32 @@
+{
+  "id": "bb678f3e0180f82bb138",
+  "slug": "rss-bb678f3e0180f82bb138",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
+  "source_excerpt": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
+  "source_published_at": "2026-11-12T13:18:40+00:00",
+  "fetched_at": "2026-11-12T19:55:56.843571+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

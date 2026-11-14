@@ -1,0 +1,32 @@
+{
+  "id": "492332e2065372ee0288",
+  "slug": "rss-492332e2065372ee0288",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Slice of Martian Meteorite Teghaza 001",
+  "source_excerpt": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected light images like these serve as a scientist’s road map, helping them find minerals of interest to analyze by different instruments. Figure A is the same image with […]",
+  "source_published_at": "2026-10-29T23:32:35+00:00",
+  "fetched_at": "2026-11-01T10:58:09.558086+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

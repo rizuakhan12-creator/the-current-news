@@ -1,0 +1,32 @@
+{
+  "id": "8a918517c6245020c27c",
+  "slug": "rss-8a918517c6245020c27c",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Rubies on Mars?",
+  "source_excerpt": "Written by Roger C. Wiens, SuperCam Principal Investigator for NASA’s Perseverance rover at Purdue University Nov. 4, 2026 Exploration on Mars turns up the unexpected. Perseverance is equipped with a fantastic set of instruments for studying the rock record of this ancient planet. Both PIXL and SuperCam have great capabilities for detecting all kinds of […]",
+  "source_published_at": "2026-11-09T22:27:12+00:00",
+  "fetched_at": "2026-11-10T07:21:16.281939+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/blog/rubies-on-mars"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

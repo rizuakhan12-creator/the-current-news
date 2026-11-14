@@ -1,0 +1,32 @@
+{
+  "id": "4d40eb7ca8fc9a3f90fd",
+  "slug": "rss-4d40eb7ca8fc9a3f90fd",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Hubble Learns Galactic History From Stars",
+  "source_excerpt": "This Hubble image features the sparkling collection of stars named Messier 30 (M30), also called NGC 7099.",
+  "source_published_at": "2026-11-05T12:56:21+00:00",
+  "fetched_at": "2026-11-05T19:58:24.257299+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

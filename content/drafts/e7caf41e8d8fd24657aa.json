@@ -1,0 +1,32 @@
+{
+  "id": "e7caf41e8d8fd24657aa",
+  "slug": "rss-e7caf41e8d8fd24657aa",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Astronaut and Earth",
+  "source_excerpt": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk. The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph. Kutryk and NASA astronaut Anil Menon installed a new roll-out solar array on the space station and performed some get-ahead work […]",
+  "source_published_at": "2026-11-03T16:37:42+00:00",
+  "fetched_at": "2026-11-03T23:24:59.188235+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/astronaut-and-earth"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}
