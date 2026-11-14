@@ -1,0 +1,32 @@
+{
+  "id": "0e414f6d88aa72b3ae0f",
+  "slug": "rss-0e414f6d88aa72b3ae0f",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Heart in the Sky at NASA Kennedy",
+  "source_excerpt": "The U.S. Air Force Thunderbirds create a heart-shaped smoke trail during a flight maneuver near NASA’s Vehicle Assembly Building during the agency’s MAX POWER expo and air show on Sunday, Nov. 8, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s MAX POWER is an aerospace festival celebrating the past, present, and future of flight […]",
+  "source_published_at": "2026-11-12T19:12:49+00:00",
+  "fetched_at": "2026-11-12T19:55:56.843074+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

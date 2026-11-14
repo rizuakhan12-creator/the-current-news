@@ -1,0 +1,32 @@
+{
+  "id": "5cf497c37d8467081586",
+  "slug": "rss-5cf497c37d8467081586",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
+  "source_excerpt": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an area characterized by bedrock containing disk-shaped (or in a liberal interpretation, potato chip shaped … see linked image) crystal forms. A […]",
+  "source_published_at": "2026-11-12T00:41:35+00:00",
+  "fetched_at": "2026-11-12T07:13:38.238272+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

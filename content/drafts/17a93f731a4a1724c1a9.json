@@ -1,0 +1,32 @@
+{
+  "id": "17a93f731a4a1724c1a9",
+  "slug": "rss-17a93f731a4a1724c1a9",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
+  "source_excerpt": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028. Agency leadership provided updates on the previously announced acceleration plans for the Artemis program, advancing toward the agency’s Artemis III test flight in 2027 and Artemis IV Moon […]",
+  "source_published_at": "2026-11-04T21:04:10+00:00",
+  "fetched_at": "2026-11-05T06:49:48.276015+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

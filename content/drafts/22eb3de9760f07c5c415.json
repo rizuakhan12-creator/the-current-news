@@ -1,0 +1,32 @@
+{
+  "id": "22eb3de9760f07c5c415",
+  "slug": "rss-22eb3de9760f07c5c415",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+  "source_excerpt": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of […]",
+  "source_published_at": "2026-11-13T16:05:54+00:00",
+  "fetched_at": "2026-11-13T19:43:44.885987+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

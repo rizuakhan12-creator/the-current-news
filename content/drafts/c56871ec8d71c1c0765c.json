@@ -1,0 +1,32 @@
+{
+  "id": "c56871ec8d71c1c0765c",
+  "slug": "rss-c56871ec8d71c1c0765c",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "CHAPEA Crew Leaves a Mark",
+  "source_excerpt": "The Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 crew arranged photos around a boot print in the simulated Martian sand outside their habitat on Aug. 31, 2026. The crew recently exited their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center in Houston. Health […]",
+  "source_published_at": "2026-11-10T14:57:55+00:00",
+  "fetched_at": "2026-11-10T19:45:04.016903+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/chapea-crew-leaves-a-mark"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

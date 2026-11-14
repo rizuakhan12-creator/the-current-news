@@ -1,0 +1,32 @@
+{
+  "id": "70aad3303bf3bdd1a4b8",
+  "slug": "rss-70aad3303bf3bdd1a4b8",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Cyprus: Island of Snakes, Cats, and Ophiolites",
+  "source_excerpt": "The third-largest island in the Mediterranean Sea exposes an ancient piece of the ocean floor and hosts a clowder of cats.",
+  "source_published_at": "2026-11-05T05:01:00+00:00",
+  "fetched_at": "2026-11-05T06:49:48.275637+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

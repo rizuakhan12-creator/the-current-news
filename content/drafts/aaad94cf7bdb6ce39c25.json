@@ -1,0 +1,32 @@
+{
+  "id": "aaad94cf7bdb6ce39c25",
+  "slug": "rss-aaad94cf7bdb6ce39c25",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
+  "source_excerpt": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses. Now two studies led by NASA astrophysicists show in new detail how LISA could reveal a new and unique population of exoplanets — worlds beyond our solar system — throughout our galaxy. […]",
+  "source_published_at": "2026-11-10T16:00:26+00:00",
+  "fetched_at": "2026-11-10T19:45:04.016638+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "db559fb332acc8680350",
+  "slug": "rss-db559fb332acc8680350",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
+  "source_excerpt": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds the Moon Base, and lays the groundwork for the first crewed missions to Mars. The next generation […]",
+  "source_published_at": "2026-11-07T18:11:57+00:00",
+  "fetched_at": "2026-11-07T21:52:48.344421+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

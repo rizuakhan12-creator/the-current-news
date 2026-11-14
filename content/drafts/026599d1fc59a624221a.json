@@ -1,0 +1,32 @@
+{
+  "id": "026599d1fc59a624221a",
+  "slug": "rss-026599d1fc59a624221a",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
+  "source_excerpt": "APOD Science APOD APOD: 2026 November 9 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rigel and the […]",
+  "source_published_at": "2026-11-09T05:05:00+00:00",
+  "fetched_at": "2026-11-09T06:34:12.169981+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

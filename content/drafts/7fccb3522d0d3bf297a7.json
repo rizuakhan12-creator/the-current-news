@@ -1,0 +1,32 @@
+{
+  "id": "7fccb3522d0d3bf297a7",
+  "slug": "rss-7fccb3522d0d3bf297a7",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+  "source_excerpt": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […]",
+  "source_published_at": "2026-11-07T22:47:03+00:00",
+  "fetched_at": "2026-11-08T06:03:55.909212+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

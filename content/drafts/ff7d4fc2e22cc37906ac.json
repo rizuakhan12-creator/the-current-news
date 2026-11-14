@@ -1,0 +1,32 @@
+{
+  "id": "ff7d4fc2e22cc37906ac",
+  "slug": "rss-ff7d4fc2e22cc37906ac",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars",
+  "source_excerpt": "After 378 days without windows, the sounds of the outside world, or real-time calls with family and friends, four research volunteers stepped out of NASA’s Mars Dune Alpha habitat on Oct. 31, completing the agency’s second yearlong Mars surface simulation. Ross Elder, Ellen Ellis, James Spicer, and Matthew Montgomery entered the roughly 1,700-square-foot, 3D-printed habitat at […]",
+  "source_published_at": "2026-11-09T11:00:00+00:00",
+  "fetched_at": "2026-11-09T22:23:18.694935+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

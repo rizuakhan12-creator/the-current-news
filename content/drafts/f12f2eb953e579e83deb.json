@@ -1,0 +1,32 @@
+{
+  "id": "f12f2eb953e579e83deb",
+  "slug": "rss-f12f2eb953e579e83deb",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
+  "source_excerpt": "APOD Science APOD APOD: 2026 November 13 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 206 […]",
+  "source_published_at": "2026-11-13T05:05:00+00:00",
+  "fetched_at": "2026-11-13T06:47:50.364038+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}
