@@ -1,0 +1,32 @@
+{
+  "id": "630372d2eb3bc82f537e",
+  "slug": "rss-630372d2eb3bc82f537e",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Sierra Snow Season Spins Up",
+  "source_excerpt": "A widespread, early-season snowstorm blanketed California’s mountains in white in mid-November 2026.",
+  "source_published_at": "2026-11-18T05:01:00+00:00",
+  "fetched_at": "2026-11-18T07:31:33.930657+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

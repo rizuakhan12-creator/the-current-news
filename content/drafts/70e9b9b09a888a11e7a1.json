@@ -1,0 +1,32 @@
+{
+  "id": "70e9b9b09a888a11e7a1",
+  "slug": "rss-70e9b9b09a888a11e7a1",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
+  "source_excerpt": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]",
+  "source_published_at": "2026-10-30T15:56:26+00:00",
+  "fetched_at": "2026-11-01T10:58:09.557405+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

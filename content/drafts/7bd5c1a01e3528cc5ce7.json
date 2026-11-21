@@ -1,0 +1,32 @@
+{
+  "id": "7bd5c1a01e3528cc5ce7",
+  "slug": "rss-7bd5c1a01e3528cc5ce7",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA’s Curiosity Mars Rover Collects Samples",
+  "source_excerpt": "This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. Learn more […]",
+  "source_published_at": "2026-11-20T15:53:24+00:00",
+  "fetched_at": "2026-11-20T20:23:32.218772+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

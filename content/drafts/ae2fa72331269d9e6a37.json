@@ -1,0 +1,32 @@
+{
+  "id": "ae2fa72331269d9e6a37",
+  "slug": "rss-ae2fa72331269d9e6a37",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Curiosity Spots Drifting Twilight Clouds",
+  "source_excerpt": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
+  "source_published_at": "2026-11-20T22:27:05+00:00",
+  "fetched_at": "2026-11-21T07:11:33.410066+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

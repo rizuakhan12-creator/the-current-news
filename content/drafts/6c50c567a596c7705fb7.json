@@ -1,0 +1,32 @@
+{
+  "id": "6c50c567a596c7705fb7",
+  "slug": "rss-6c50c567a596c7705fb7",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "A Global Rebound for Mangroves",
+  "source_excerpt": "After decades of decline, this ecologically significant type of forest is making a comeback.",
+  "source_published_at": "2026-11-13T05:01:00+00:00",
+  "fetched_at": "2026-11-13T06:47:50.364406+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

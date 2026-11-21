@@ -1,0 +1,32 @@
+{
+  "id": "ab8a1fe910dea6f4759e",
+  "slug": "rss-ab8a1fe910dea6f4759e",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "New Album of Baby Star Sounds Shared by NASA’s Chandra",
+  "source_excerpt": "A new album from NASA’s Chandra X-ray Observatory collects snapshots of baby stars across the galaxy and beyond and transforms that data into sound. Four new sonifications use data of stars that are actively forming, captured by Chandra and other NASA telescopes By studying places in the universe where stars are currently being born and […]",
+  "source_published_at": "2026-11-17T20:26:17+00:00",
+  "fetched_at": "2026-11-17T20:57:04.184660+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

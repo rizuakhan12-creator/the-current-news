@@ -1,0 +1,32 @@
+{
+  "id": "af0078f31e3195cdf92a",
+  "slug": "rss-af0078f31e3195cdf92a",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Newest Sample, Oldest Rock?",
+  "source_excerpt": "Written by Tasha Coelho, Mastcam-Z Student Collaborator at Arizona State University Nov. 1, 2026 Perseverance’s most recent abrasion “Pumbe” bears a striking resemblance to an earlier abrasion, “Badger Peak.” That’s no coincidence. As previously reported, that rock had a hardness too high to core. However, the team felt strongly that it was worth the effort […]",
+  "source_published_at": "2026-11-09T22:25:52+00:00",
+  "fetched_at": "2026-11-10T07:21:16.282121+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/blog/newest-sample-oldest-rock"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

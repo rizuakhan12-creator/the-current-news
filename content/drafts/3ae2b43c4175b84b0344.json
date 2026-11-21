@@ -1,0 +1,32 @@
+{
+  "id": "3ae2b43c4175b84b0344",
+  "slug": "rss-3ae2b43c4175b84b0344",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
+  "source_excerpt": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft departs the International Space Station no earlier than Wednesday, Nov. 18, for its return to Earth. Pending weather conditions, the Dragon spacecraft will undock from the Harmony module’s space-facing port at 11:05 a.m. EST, following a […]",
+  "source_published_at": "2026-11-17T19:16:22+00:00",
+  "fetched_at": "2026-11-17T20:57:04.184897+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

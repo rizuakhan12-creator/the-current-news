@@ -1,0 +1,32 @@
+{
+  "id": "7de7b8fcd5a8812cfae2",
+  "slug": "rss-7de7b8fcd5a8812cfae2",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Scotland’s Flow Country",
+  "source_excerpt": "Blanket bogs in the Scottish Highlands store vast amounts of carbon.",
+  "source_published_at": "2026-11-12T05:01:00+00:00",
+  "fetched_at": "2026-11-12T07:13:38.237985+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "55920a21abfa36e8a9ef",
+  "slug": "rss-55920a21abfa36e8a9ef",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
+  "source_excerpt": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator and founder of ClassCrunchLabs Foundation. The event, hosted by NASA’s Office of STEM Engagement, celebrates National STEM Day by bringing real‑world science, […]",
+  "source_published_at": "2026-11-03T15:15:50+00:00",
+  "fetched_at": "2026-11-03T23:24:59.188663+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

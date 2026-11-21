@@ -1,0 +1,32 @@
+{
+  "id": "08013d4840d57bf96b5e",
+  "slug": "rss-08013d4840d57bf96b5e",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "La NASA destina un millón de dólares al reto estudiantil Base Lunar",
+  "source_excerpt": "Read this release in English here.El domingo 8 de noviembre de 2026, la NASA anunció la convocatoria del reto estudiantil Base Lunar, dotado con un millón de dólares, durante un acto de MAX POWER celebrado en el Complejo de Visitantes del Centro Espacial Kennedy, en Florida. En el marco de una edad de oro de […]",
+  "source_published_at": "2026-11-09T17:36:33+00:00",
+  "fetched_at": "2026-11-09T22:23:18.694448+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

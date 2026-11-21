@@ -1,0 +1,32 @@
+{
+  "id": "46b7465cdfaae4c4ceb6",
+  "slug": "rss-46b7465cdfaae4c4ceb6",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Taking a Gander at Utah’s Goosenecks",
+  "source_excerpt": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
+  "source_published_at": "2026-11-06T05:01:00+00:00",
+  "fetched_at": "2026-11-06T06:50:32.713071+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}
