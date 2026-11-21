@@ -1,0 +1,32 @@
+{
+  "id": "c45c5c281dd2928f93de",
+  "slug": "rss-c45c5c281dd2928f93de",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
+  "source_excerpt": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours to reach the spacecraft. NASA will highlight […]",
+  "source_published_at": "2026-11-10T19:22:45+00:00",
+  "fetched_at": "2026-11-10T19:45:04.015899+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

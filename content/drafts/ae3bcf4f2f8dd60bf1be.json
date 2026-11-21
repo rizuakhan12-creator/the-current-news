@@ -1,0 +1,32 @@
+{
+  "id": "ae3bcf4f2f8dd60bf1be",
+  "slug": "rss-ae3bcf4f2f8dd60bf1be",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "BPS Digital AVATAR Challenge",
+  "source_excerpt": "The NASA Space Biology Program within the Biological and Physical Sciences (BPS) Division investigates how living systems respond across the full spectrum of biological organization to advance understanding of how living systems respond to the unique stressors of space exploration—including microgravity, ionizing radiation, low magnetic fields, and elevated CO₂. As NASA prepares for long-duration deep […]",
+  "source_published_at": "2026-11-17T20:39:38+00:00",
+  "fetched_at": "2026-11-17T20:57:04.184225+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

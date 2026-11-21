@@ -1,0 +1,32 @@
+{
+  "id": "e16142d03f2a82b5bd1d",
+  "slug": "rss-e16142d03f2a82b5bd1d",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
+  "source_excerpt": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star. A new study, published Monday in the latest issue of The Astrophysical Journal, details the discovery of a previously hidden companion object that keeps pulling material away from the massive star every 113 days as they orbit […]",
+  "source_published_at": "2026-11-09T18:55:50+00:00",
+  "fetched_at": "2026-11-09T22:23:18.694136+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

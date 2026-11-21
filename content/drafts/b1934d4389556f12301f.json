@@ -1,0 +1,32 @@
+{
+  "id": "b1934d4389556f12301f",
+  "slug": "rss-b1934d4389556f12301f",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Hubble Reveals Cosmic Mystery",
+  "source_excerpt": "This photo released on Nov. 2, 2026, showcases NGC 4449, a dwarf irregular. Researchers using NASA’s Hubble Space Telescope studied 37 nearby dwarf galaxies — small galaxies containing a few thousand to hundreds of millions of stars — including NGC 4449 and found that much of the oxygen they expected to see is missing. Read […]",
+  "source_published_at": "2026-11-04T15:59:36+00:00",
+  "fetched_at": "2026-11-04T19:47:04.160649+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

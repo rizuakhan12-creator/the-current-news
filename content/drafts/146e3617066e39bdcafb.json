@@ -1,0 +1,32 @@
+{
+  "id": "146e3617066e39bdcafb",
+  "slug": "rss-146e3617066e39bdcafb",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+  "source_excerpt": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
+  "source_published_at": "2026-11-20T20:46:14+00:00",
+  "fetched_at": "2026-11-21T07:11:33.410244+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

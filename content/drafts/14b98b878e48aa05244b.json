@@ -1,0 +1,32 @@
+{
+  "id": "14b98b878e48aa05244b",
+  "slug": "rss-14b98b878e48aa05244b",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "La NASA busca a la próxima generación de astronautas",
+  "source_excerpt": "Read this release in English here.La NASA busca a los exploradores que ayudarán a escribir el próximo capítulo de los vuelos espaciales tripulados. Ya está abierto el plazo de inscripción para la próxima promoción de astronautas de la agencia, que se incorporarán a la NASA en un momento en el que Estados Unidos regresa a […]",
+  "source_published_at": "2026-11-09T19:27:20+00:00",
+  "fetched_at": "2026-11-09T22:23:18.693743+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/la-nasa-busca-a-la-proxima-generacion-de-astronautas"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "344d924327419a44654f",
+  "slug": "rss-344d924327419a44654f",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "M30’s Sparkling Stars",
+  "source_excerpt": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the early telescopes of Messier’s time. M30 lies about […]",
+  "source_published_at": "2026-11-06T16:23:41+00:00",
+  "fetched_at": "2026-11-06T19:26:04.618562+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

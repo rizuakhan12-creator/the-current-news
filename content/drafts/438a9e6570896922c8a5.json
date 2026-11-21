@@ -1,0 +1,32 @@
+{
+  "id": "438a9e6570896922c8a5",
+  "slug": "rss-438a9e6570896922c8a5",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Lake Pelku",
+  "source_excerpt": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia. The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment. Station crew members have produced hundreds of thousands of images. These images record phenomena in real […]",
+  "source_published_at": "2026-11-19T15:32:39+00:00",
+  "fetched_at": "2026-11-19T20:39:30.997208+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/lake-pelku"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

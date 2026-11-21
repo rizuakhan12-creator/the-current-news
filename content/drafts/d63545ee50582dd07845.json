@@ -1,0 +1,32 @@
+{
+  "id": "d63545ee50582dd07845",
+  "slug": "rss-d63545ee50582dd07845",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
+  "source_excerpt": "Employees contributing to NASA’s mission at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, were recognized during the center’s Honor Awards ceremony on Nov. 18. Presenting the awards were Christine Powell, NASA Stennis center director, and Jeremy Parsons, the agency’s Artemis program manager responsible for management and oversight of NASA’s initiative to return […]",
+  "source_published_at": "2026-11-20T16:27:46+00:00",
+  "fetched_at": "2026-11-20T20:23:32.218326+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

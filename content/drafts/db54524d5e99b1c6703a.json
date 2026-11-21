@@ -1,0 +1,32 @@
+{
+  "id": "db54524d5e99b1c6703a",
+  "slug": "rss-db54524d5e99b1c6703a",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Water Surges Into Navajo Reservoir",
+  "source_excerpt": "Rounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s second-largest reservoir.",
+  "source_published_at": "2026-11-11T05:01:00+00:00",
+  "fetched_at": "2026-11-11T06:25:21.944954+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

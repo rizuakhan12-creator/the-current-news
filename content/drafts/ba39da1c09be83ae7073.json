@@ -1,0 +1,32 @@
+{
+  "id": "ba39da1c09be83ae7073",
+  "slug": "rss-ba39da1c09be83ae7073",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Thunderbirds in Formation",
+  "source_excerpt": "U.S. Air Force Thunderbirds fighter jets pass overhead during the agency’s MAX POWER expo and air show on Saturday, Nov. 7, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s inaugural MAX POWER was an aerospace festival celebrating the past, present, and future of flight and space exploration in honor of America’s 250th anniversary. Image […]",
+  "source_published_at": "2026-11-16T18:34:47+00:00",
+  "fetched_at": "2026-11-16T22:05:17.161699+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/thunderbirds-in-formation"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

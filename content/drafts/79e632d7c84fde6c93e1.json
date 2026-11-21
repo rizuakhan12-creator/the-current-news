@@ -1,0 +1,32 @@
+{
+  "id": "79e632d7c84fde6c93e1",
+  "slug": "rss-79e632d7c84fde6c93e1",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Before the Dawn in America’s Heartland",
+  "source_excerpt": "With hardly a cloud in sight, astronauts had a sweeping view of nighttime lights in the U.S. Midwest.",
+  "source_published_at": "2026-11-04T05:01:00+00:00",
+  "fetched_at": "2026-11-04T06:26:18.482035+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/before-the-dawn-in-americas-heartland"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

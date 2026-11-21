@@ -1,0 +1,32 @@
+{
+  "id": "d87bd0a830188828a1d8",
+  "slug": "rss-d87bd0a830188828a1d8",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "The Pacific’s Busy Storm Season",
+  "source_excerpt": "Super Typhoon In-fa developed an unusually large eye, and the remnants of Typhoon Champi transitioned into an extratropical storm that targeted Alaska.",
+  "source_published_at": "2026-11-03T05:01:00+00:00",
+  "fetched_at": "2026-11-03T23:24:59.188929+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

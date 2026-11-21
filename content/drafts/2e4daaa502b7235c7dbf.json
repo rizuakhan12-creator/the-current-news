@@ -1,0 +1,32 @@
+{
+  "id": "2e4daaa502b7235c7dbf",
+  "slug": "rss-2e4daaa502b7235c7dbf",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NICER Status Updates",
+  "source_excerpt": "November 17, 2026 NASA’s NICER Telescope Ends Science Operations After studying the universe for six and a half years beyond its initial mission, NASA’s NICER (Neutron star Interior Composition Explorer) telescope on the International Space Station has ended science operations. The mission and space station teams are now focused on plans to finalize NICER’s 8-year […]",
+  "source_published_at": "2026-11-17T18:18:16+00:00",
+  "fetched_at": "2026-11-17T20:57:04.185091+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/missions/station/nicer-status-updates"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

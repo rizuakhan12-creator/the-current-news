@@ -1,0 +1,32 @@
+{
+  "id": "cce295b82699fc57efd4",
+  "slug": "rss-cce295b82699fc57efd4",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
+  "source_excerpt": "Description This collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. These images were […]",
+  "source_published_at": "2026-11-16T22:05:23+00:00",
+  "fetched_at": "2026-11-17T07:57:02.933612+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}
