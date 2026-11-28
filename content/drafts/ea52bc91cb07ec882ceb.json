@@ -1,0 +1,32 @@
+{
+  "id": "ea52bc91cb07ec882ceb",
+  "slug": "rss-ea52bc91cb07ec882ceb",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Seeking Refuge on Resolution Island",
+  "source_excerpt": "New Zealanders have long envisioned the island as a predator-free zone for native birds, but swimming stoats have shown a resolve of their own.",
+  "source_published_at": "2026-11-26T05:01:00+00:00",
+  "fetched_at": "2026-11-26T08:21:40.453520+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

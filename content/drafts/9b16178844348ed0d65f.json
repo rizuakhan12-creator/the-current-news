@@ -1,0 +1,32 @@
+{
+  "id": "9b16178844348ed0d65f",
+  "slug": "rss-9b16178844348ed0d65f",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Georgia’s Pecan Belt",
+  "source_excerpt": "Since an early-1900s planting boom, orchards along the Flint River in southwest Georgia have become a center of U.S. pecan production.",
+  "source_published_at": "2026-11-25T05:00:00+00:00",
+  "fetched_at": "2026-11-25T08:37:32.077102+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/georgias-pecan-belt"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

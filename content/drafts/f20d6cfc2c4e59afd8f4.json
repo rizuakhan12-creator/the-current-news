@@ -1,0 +1,32 @@
+{
+  "id": "f20d6cfc2c4e59afd8f4",
+  "slug": "rss-f20d6cfc2c4e59afd8f4",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Ames Stars of the Month: November 2026",
+  "source_excerpt": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an engineer at Blue […]",
+  "source_published_at": "2026-11-12T17:54:32+00:00",
+  "fetched_at": "2026-11-12T19:55:56.843410+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

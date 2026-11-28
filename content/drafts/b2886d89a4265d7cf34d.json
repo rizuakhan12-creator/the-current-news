@@ -1,0 +1,32 @@
+{
+  "id": "b2886d89a4265d7cf34d",
+  "slug": "rss-b2886d89a4265d7cf34d",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "TB 26-10 Printed Circuit Board Assembly Chip Resistor Body Cracking",
+  "source_excerpt": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download PDF here Chip resistors are widely used in NASA projects, yet cases of alumina substrate cracking during environmental testing are rare. Two instances of thick-film chip resistor cracking were observed during thermal cycling after vibration, with fractures occurring across the short axis due […]",
+  "source_published_at": "2026-11-03T15:35:14+00:00",
+  "fetched_at": "2026-11-03T23:24:59.188513+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

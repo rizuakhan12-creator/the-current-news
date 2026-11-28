@@ -1,0 +1,32 @@
+{
+  "id": "55a2930a5c54378a8e52",
+  "slug": "rss-55a2930a5c54378a8e52",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Midwestern City Lights",
+  "source_excerpt": "City lights from the Midwestern United States to the East Coast sparkle across the landscape a couple of hours before sunrise on Oct. 18, 2026. Major urban areas visible in the photograph include Chicago, Illinois; Detroit, Michigan; and the New York metropolitan region. The International Space Station was orbiting 259 miles above Earth when this […]",
+  "source_published_at": "2026-11-05T15:17:19+00:00",
+  "fetched_at": "2026-11-05T19:58:24.256633+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/midwestern-city-lights"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

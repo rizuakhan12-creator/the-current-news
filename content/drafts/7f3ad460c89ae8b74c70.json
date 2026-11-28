@@ -1,0 +1,32 @@
+{
+  "id": "7f3ad460c89ae8b74c70",
+  "slug": "rss-7f3ad460c89ae8b74c70",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "The Last Ice on Puncak Jaya",
+  "source_excerpt": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
+  "source_published_at": "2026-11-16T05:00:00+00:00",
+  "fetched_at": "2026-11-16T06:32:35.410255+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "efad23ef3736ba81b75f",
+  "slug": "rss-efad23ef3736ba81b75f",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
+  "source_excerpt": "How NASA works with small businesses is evolving, and as a result, the agency is strengthening the domestic aerospace industrial base to support future exploration missions through its recently renamed Small Business Supplier Development Program. As part of the program, NASA announced its latest Mentor-Protégé Agreement, this one signed between The Boeing Company and GRACE […]",
+  "source_published_at": "2026-11-25T19:06:56+00:00",
+  "fetched_at": "2026-11-25T21:43:17.982651+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "25c6bc8d2672898f1212",
+  "slug": "rss-25c6bc8d2672898f1212",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
+  "source_excerpt": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At nearly every stop across the country, NASA Space Grant has brought students into the heart of the action. In Iowa, NASA Administrator Jared […]",
+  "source_published_at": "2026-11-04T16:16:41+00:00",
+  "fetched_at": "2026-11-04T19:47:04.160388+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "43aaa38ea1841c95fb3c",
+  "slug": "rss-43aaa38ea1841c95fb3c",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+  "source_excerpt": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus […]",
+  "source_published_at": "2026-11-18T22:19:17+00:00",
+  "fetched_at": "2026-11-19T20:39:30.997830+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

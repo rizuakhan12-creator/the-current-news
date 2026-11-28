@@ -1,0 +1,32 @@
+{
+  "id": "2f13a0b0e8b948b32e02",
+  "slug": "rss-2f13a0b0e8b948b32e02",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Autumn Mornings Bring Valley Fog",
+  "source_excerpt": "Low clouds trace the branching valleys of the Appalachian Plateau and the Cumberland River, then burn off by afternoon.",
+  "source_published_at": "2026-11-10T05:00:00+00:00",
+  "fetched_at": "2026-11-10T07:21:16.281314+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

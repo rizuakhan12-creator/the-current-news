@@ -1,0 +1,32 @@
+{
+  "id": "6eed1609012d8d914fc8",
+  "slug": "rss-6eed1609012d8d914fc8",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "MAF EAP – Holidays – How to manage the BAH HUMBUG that tries to sneak in",
+  "source_excerpt": "Holidays are often a fun break during a busy year – a long weekend here and there is an event many of us can get behind. However, when a short holiday break turns into a full holiday season, we know that this is a different “ball game”. Everyone has stress about something – some people […]",
+  "source_published_at": "2026-11-18T18:58:27+00:00",
+  "fetched_at": "2026-11-19T20:39:30.997946+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

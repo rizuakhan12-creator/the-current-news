@@ -1,0 +1,32 @@
+{
+  "id": "2cdf27b08a75a07c39a9",
+  "slug": "rss-2cdf27b08a75a07c39a9",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Eyes Crop Candidates for Future Menus",
+  "source_excerpt": "As NASA prepares for future missions to the Moon and Mars, researchers are studying crops that could provide astronauts with fresh food, nutrition, and variety far from Earth. Such crop variety can help with menus in deep space, something top of mind this week as the nation celebrates Thanksgiving. Recent testing points to strawberries, […]",
+  "source_published_at": "2026-11-25T17:53:42+00:00",
+  "fetched_at": "2026-11-25T21:43:17.983205+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ed5da8b90db0cf931c9c",
+  "slug": "rss-ed5da8b90db0cf931c9c",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Shivelyuch Socked In",
+  "source_excerpt": "A cloud layer encircled the flanks of the volcano on the Kamchatka Peninsula but left its restless summit caldera in view.",
+  "source_published_at": "2026-11-27T05:01:00+00:00",
+  "fetched_at": "2026-11-27T08:37:05.223498+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

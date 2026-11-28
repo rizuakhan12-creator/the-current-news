@@ -1,0 +1,32 @@
+{
+  "id": "52271576ef278e780763",
+  "slug": "rss-52271576ef278e780763",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "MAX POWER: NASA’s Inaugural Aerospace Expo Ignites America’s Future",
+  "source_excerpt": "Thousands gathered over several days in early November to experience MAX POWER – NASA’s first exhibition of America’s superiority in space, aeronautics, and technology on and around the agency’s Kennedy Space Center in Florida. The multi-day, family-friendly event honored the nation’s 250th anniversary and served as a culmination of the agency’s Inspiration Tour. Among the […]",
+  "source_published_at": "2026-11-09T16:07:10+00:00",
+  "fetched_at": "2026-11-09T22:23:18.694703+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/general/max-power-nasas-inaugural-aerospace-expo-ignites-americas-future"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

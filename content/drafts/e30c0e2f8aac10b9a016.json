@@ -1,0 +1,32 @@
+{
+  "id": "e30c0e2f8aac10b9a016",
+  "slug": "rss-e30c0e2f8aac10b9a016",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Curiosity Blog, Sols 5072-5076: The Return of the Polygons",
+  "source_excerpt": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, Nov. 13, 2026 Curiosity’s past several weeks have been very focused on drilling and analysis of the “Basque Lakes” and “Nazca” samples. We learned a lot from those drilled samples, but it’s time to hit the Martian […]",
+  "source_published_at": "2026-11-17T17:06:07+00:00",
+  "fetched_at": "2026-11-17T20:57:04.185460+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5072-5076-the-return-of-the-polygons"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

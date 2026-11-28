@@ -1,0 +1,32 @@
+{
+  "id": "4401efb7dba1efc9a951",
+  "slug": "rss-4401efb7dba1efc9a951",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
+  "source_excerpt": "NASA tested RS-25 engine No. 10001 on Nov. 18 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds). While this developmental engine will not be used in flight, the hot […]",
+  "source_published_at": "2026-11-19T14:44:39+00:00",
+  "fetched_at": "2026-11-19T20:39:30.997328+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

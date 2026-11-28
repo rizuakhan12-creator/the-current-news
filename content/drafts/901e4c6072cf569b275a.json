@@ -1,0 +1,32 @@
+{
+  "id": "901e4c6072cf569b275a",
+  "slug": "rss-901e4c6072cf569b275a",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Curiosity Blog, Sols 5050-5055: It’s Nazca, Our 49th Drill Hole",
+  "source_excerpt": "Written by Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Oct. 23, 2026 As regular readers of this blog will know, we returned to the area where we found disc shaped inclusions in the rocks, which we interpreted as potential crystals. If they are indeed crystals, and […]",
+  "source_published_at": "2026-11-10T01:05:48+00:00",
+  "fetched_at": "2026-11-10T07:21:16.281730+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

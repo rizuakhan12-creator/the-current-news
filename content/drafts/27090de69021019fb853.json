@@ -1,0 +1,32 @@
+{
+  "id": "27090de69021019fb853",
+  "slug": "rss-27090de69021019fb853",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Amateur Astronomer? Be a Kilonova Catcher!",
+  "source_excerpt": "Neutron stars are the ultra-dense, city-sized leftovers of dead stars. When they collide, they can release a brief flash of light called a kilonova. These immensely powerful events forge much of the universe’s gold, platinum and other heavy elements. Since a kilonova fades within days, astronomers have to find it fast, and no single observatory […]",
+  "source_published_at": "2026-11-24T19:19:52+00:00",
+  "fetched_at": "2026-11-24T22:28:24.333040+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

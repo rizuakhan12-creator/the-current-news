@@ -1,0 +1,32 @@
+{
+  "id": "85a88fce93d56ba5f38a",
+  "slug": "rss-85a88fce93d56ba5f38a",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
+  "source_excerpt": "The brilliant galaxy NGC 4394 with its distinct galactic bar takes center stage in this Hubble Space Telescope image",
+  "source_published_at": "2026-11-24T13:58:28+00:00",
+  "fetched_at": "2026-11-24T22:28:24.334409+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

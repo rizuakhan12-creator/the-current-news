@@ -1,0 +1,32 @@
+{
+  "id": "662dd4090d4d9ea8679e",
+  "slug": "rss-662dd4090d4d9ea8679e",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
+  "source_excerpt": "NASA announced Monday that NASA+ content has found its first theatrical home at The Greenbelt Cinema in Greenbelt, Maryland, expanding the agency’s reach across major viewing platforms and bringing space even closer to home. “The National Aeronautics and Space Act of 1958 calls us to share our story of space exploration with the broadest possible […]",
+  "source_published_at": "2026-11-24T21:14:36+00:00",
+  "fetched_at": "2026-11-24T22:28:24.332268+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

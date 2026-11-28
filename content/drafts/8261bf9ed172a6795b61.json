@@ -1,0 +1,32 @@
+{
+  "id": "8261bf9ed172a6795b61",
+  "slug": "rss-8261bf9ed172a6795b61",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
+  "source_excerpt": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]",
+  "source_published_at": "2026-11-25T16:47:29+00:00",
+  "fetched_at": "2026-11-25T21:43:17.983506+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}
