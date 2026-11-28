@@ -1,0 +1,32 @@
+{
+  "id": "acc301e7ba339cf75435",
+  "slug": "rss-acc301e7ba339cf75435",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
+  "source_excerpt": "APOD Science APOD APOD: 2026 November 4 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Not-So-Hidden […]",
+  "source_published_at": "2026-11-04T05:05:00+00:00",
+  "fetched_at": "2026-11-04T06:26:18.481647+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "c7833fd2e3796dd1196c",
+  "slug": "rss-c7833fd2e3796dd1196c",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Space Selfie",
+  "source_excerpt": "NASA astronaut Anil Menon took this selfie during a spacewalk on Oct. 29, 2026. He and CSA (Canadian Space Agency) astronaut Joshua Kutryk installed a new roll-out solar array on the International Space Station. Get daily updates from the space station. Image credit: NASA/Anil Menon",
+  "source_published_at": "2026-11-17T16:51:14+00:00",
+  "fetched_at": "2026-11-17T20:57:04.185838+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/space-selfie-2"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6f3f4555c9292586b858",
+  "slug": "rss-6f3f4555c9292586b858",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "El Niño Rains Paint the Atacama",
+  "source_excerpt": "Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era.",
+  "source_published_at": "2026-11-19T05:00:00+00:00",
+  "fetched_at": "2026-11-19T20:39:30.997717+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

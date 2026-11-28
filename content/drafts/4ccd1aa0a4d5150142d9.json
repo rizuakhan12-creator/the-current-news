@@ -1,0 +1,32 @@
+{
+  "id": "4ccd1aa0a4d5150142d9",
+  "slug": "rss-4ccd1aa0a4d5150142d9",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+  "source_excerpt": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
+  "source_published_at": "2026-11-19T15:33:55+00:00",
+  "fetched_at": "2026-11-19T20:39:30.997068+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

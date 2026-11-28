@@ -1,0 +1,32 @@
+{
+  "id": "da9b1cc7c4c966319beb",
+  "slug": "rss-da9b1cc7c4c966319beb",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "I Am Artemis Katie Spicer",
+  "source_excerpt": "For Katie Spicer, embracing opportunity and challenge has led to giant leaps during her time at NASA. Now as the NASA lander integration lead for Blue Origin’s Blue Moon Mark 2 lander, one of the commercially provided human landing systems for NASA’s Artemis program, Spicer will have her handprint on history. Spicer works in the […]",
+  "source_published_at": "2026-11-12T20:10:02+00:00",
+  "fetched_at": "2026-11-13T06:47:50.364613+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

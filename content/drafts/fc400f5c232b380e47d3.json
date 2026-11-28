@@ -1,0 +1,32 @@
+{
+  "id": "fc400f5c232b380e47d3",
+  "slug": "rss-fc400f5c232b380e47d3",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
+  "source_excerpt": "By Remington Free, Operations Systems Engineer, NASA-JPL Earth planning date: Friday, Oct. 30, 2026 Today’s plan covered 3 sols, 5060, 5061, and 5062, as we take a few recharging sols before getting back to our normal drilling activities. As you may know if you have been following the blog closely, we are in the middle […]",
+  "source_published_at": "2026-11-10T01:07:45+00:00",
+  "fetched_at": "2026-11-10T07:21:16.281529+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

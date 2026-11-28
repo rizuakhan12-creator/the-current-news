@@ -1,0 +1,32 @@
+{
+  "id": "231b826ea9d0e37a20b3",
+  "slug": "rss-231b826ea9d0e37a20b3",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Space Apps Challenge Breaks Global Hackathon Records",
+  "source_excerpt": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world. The annual hackathon invites participants to use NASA’s open data to address one of 14 challenges focused on space exploration or Earth science. This year, the hackathon drew 59% […]",
+  "source_published_at": "2026-11-17T21:50:34+00:00",
+  "fetched_at": "2026-11-18T07:31:33.931233+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

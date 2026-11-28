@@ -1,0 +1,32 @@
+{
+  "id": "2c49d7a1cab0315346ad",
+  "slug": "rss-2c49d7a1cab0315346ad",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Eruption Extends Iwo Jima’s Beach",
+  "source_excerpt": "A volcanic eruption just off the southeast shore of the Pacific island has reshaped the coast, but it’s unclear how long the new land will survive.",
+  "source_published_at": "2026-11-24T05:01:00+00:00",
+  "fetched_at": "2026-11-24T22:28:24.334989+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

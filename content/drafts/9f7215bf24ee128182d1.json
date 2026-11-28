@@ -1,0 +1,32 @@
+{
+  "id": "9f7215bf24ee128182d1",
+  "slug": "rss-9f7215bf24ee128182d1",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
+  "source_excerpt": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif […]",
+  "source_published_at": "2026-11-07T05:05:00+00:00",
+  "fetched_at": "2026-11-07T05:59:46.891722+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

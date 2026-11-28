@@ -1,0 +1,32 @@
+{
+  "id": "a92cc23a668bfe4b397d",
+  "slug": "rss-a92cc23a668bfe4b397d",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "The Stormy Southwest Pacific",
+  "source_excerpt": "Tropical Cyclone Xavier launched the basin’s storm season with a bang.",
+  "source_published_at": "2026-11-20T05:01:00+00:00",
+  "fetched_at": "2026-11-20T07:18:21.600868+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

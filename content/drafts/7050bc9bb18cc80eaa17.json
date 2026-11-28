@@ -1,0 +1,32 @@
+{
+  "id": "7050bc9bb18cc80eaa17",
+  "slug": "rss-7050bc9bb18cc80eaa17",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "APOD: 2026 November 19 – The Horsehead and Flame Nebulas",
+  "source_excerpt": "APODScienceAPODAPOD: 2026 November 19 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated The Horsehead and Flame Nebulas Explanation: Today’s image could have been a painting. But what […]",
+  "source_published_at": "2026-11-19T05:05:00+00:00",
+  "fetched_at": "2026-11-19T20:39:30.997598+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

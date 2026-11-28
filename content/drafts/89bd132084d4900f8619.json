@@ -1,0 +1,32 @@
+{
+  "id": "89bd132084d4900f8619",
+  "slug": "rss-89bd132084d4900f8619",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+  "source_excerpt": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
+  "source_published_at": "2026-11-25T14:56:54+00:00",
+  "fetched_at": "2026-11-25T21:43:17.983958+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

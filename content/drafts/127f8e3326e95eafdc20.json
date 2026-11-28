@@ -1,0 +1,32 @@
+{
+  "id": "127f8e3326e95eafdc20",
+  "slug": "rss-127f8e3326e95eafdc20",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
+  "source_excerpt": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in November to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, […]",
+  "source_published_at": "2026-11-02T17:33:22+00:00",
+  "fetched_at": "2026-11-03T23:24:59.189469+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

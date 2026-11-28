@@ -1,0 +1,32 @@
+{
+  "id": "ff0501dec8e204f83b6b",
+  "slug": "rss-ff0501dec8e204f83b6b",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Eye of the Sahara",
+  "source_excerpt": "The Richat Structure, also known as the “Eye of the Sahara,” is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneous activity and uplift in the nation of Mauritania. In this type of geologic structure, rocks […]",
+  "source_published_at": "2026-11-25T16:21:04+00:00",
+  "fetched_at": "2026-11-25T21:43:17.983744+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/image-article/eye-of-the-sahara"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

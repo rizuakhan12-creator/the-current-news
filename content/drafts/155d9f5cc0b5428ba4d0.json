@@ -1,0 +1,32 @@
+{
+  "id": "155d9f5cc0b5428ba4d0",
+  "slug": "rss-155d9f5cc0b5428ba4d0",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "Ozone Hole Reaches Its 2026 Maximum",
+  "source_excerpt": "The ozone hole ranked seventh largest by area in 48 years of monitoring, but it was not as deep as other large holes on record.",
+  "source_published_at": "2026-11-09T05:00:00+00:00",
+  "fetched_at": "2026-11-09T06:34:12.170569+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "05694927c60ab3949de2",
+  "slug": "rss-05694927c60ab3949de2",
+  "title": "",
+  "summary": "",
+  "meta_description": "",
+  "author": "",
+  "paragraphs": [],
+  "tags": [],
+  "status": "draft",
+  "content_origin": "rss_manual",
+  "ai_assisted": false,
+  "needs_more_reporting": true,
+  "verification_notes": [
+    "Open the original source and verify each claim.",
+    "Write an original title, summary, description and article body.",
+    "Check text/image rights and all source links before approval."
+  ],
+  "source_title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+  "source_excerpt": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location and update the duration of the flight deployment. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 2. These flights will measure […]",
+  "source_published_at": "2026-11-17T17:12:20+00:00",
+  "fetched_at": "2026-11-17T20:57:04.185277+00:00",
+  "category": "Technology",
+  "sources": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland"
+    }
+  ],
+  "featured": false,
+  "demo": false
+}
